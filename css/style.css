@@ -1,0 +1,973 @@
+@font-face {
+  font-family: "Cocon";
+  font-display: swap;
+  src: url("../fonts/Cocon-Regular_font.woff") format("woff"), url("../fonts/Cocon-Regular_font.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo2";
+  font-display: swap;
+  src: url("../fonts/Exo2.woff") format("woff"), url("../fonts/Exo2.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  background-color: #241537;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  height: 1200px;
+}
+
+.logo {
+  background-image: url("../img/Header/Logo_BG_header.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 791px;
+  height: 154px;
+  position: relative;
+  right: 140px;
+}
+
+.logo img {
+  position: absolute;
+}
+
+.logo :first-of-type {
+  right: 90px;
+  top: 31px;
+}
+
+.logo :nth-of-type(2) {
+  right: -475px;
+  top: 94px;
+}
+
+.logo :nth-of-type(3) {
+  right: -355px;
+  top: 75px;
+}
+
+.logo-text {
+  margin-left: 157px;
+  padding-top: 22px;
+  line-height: .9;
+}
+
+.logo-text p {
+  font-family: Cocon;
+  margin: 0;
+  font-size: 50px;
+  color: white;
+  margin-left: 70px;
+  text-transform: uppercase;
+}
+
+.logo-text p span {
+  margin-left: 35px;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+}
+
+.title h1 {
+  font-family: Cocon;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #241537;
+  line-height: 1;
+  padding-top: 6px;
+}
+
+.title img {
+  position: absolute;
+  left: 73px;
+  bottom: -12px;
+}
+
+.title p {
+  font-family: Cocon;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #241537;
+  line-height: 1;
+  margin-top: -10px;
+}
+
+.title p img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.title p span {
+  color: #fdb000;
+}
+
+.sign-up {
+  background-image: url("../img/Header/bg_form_header.png");
+  background-repeat: no-repeat;
+  height: 820px;
+  margin-left: 90px;
+  position: relative;
+}
+
+.sign-up .red-planet {
+  position: absolute;
+  left: 750px;
+  top: 0;
+  z-index: 1;
+}
+
+.sign-up .orange-planet {
+  position: absolute;
+  left: 850px;
+  top: 0;
+  z-index: 1;
+}
+
+.sign-up .green-plant {
+  position: absolute;
+  top: 334px;
+  left: 494px;
+}
+
+.sign-up p {
+  font-family: Exo2;
+  font-size: 27px;
+  color: white;
+  text-align: left;
+  padding-top: 90px;
+  padding-left: 93px;
+  line-height: .9;
+}
+
+.sign-up p span {
+  color: #ffd34e;
+}
+
+.sign-up .form {
+  background-color: #986896;
+  width: 405px;
+  margin-left: 97px;
+  border-radius: 10px;
+}
+
+.sign-up .form div {
+  margin-top: 10px;
+  padding-left: 100px;
+  padding-top: 8px;
+}
+
+.sign-up .form div button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdb81a), to(#ec592e));
+  background: -o-linear-gradient(#fdb81a, #ec592e);
+  background: linear-gradient(#fdb81a, #ec592e);
+  text-transform: uppercase;
+  padding: 16px 50px;
+  border-radius: 25px;
+  margin: 10px 0;
+  margin-left: 100px;
+  font-family: Exo2;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+
+.sign-up .form div button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8ad0c), to(#a82700));
+  background: -o-linear-gradient(#f8ad0c, #a82700);
+  background: linear-gradient(#f8ad0c, #a82700);
+}
+
+.sign-up .form label {
+  font-family: Exo2;
+  font-weight: 500;
+  color: white;
+}
+
+.sign-up .form input {
+  height: 42px;
+  width: 292px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  z-index: 2;
+}
+
+.sign-up .form .woman_couch {
+  position: absolute;
+  top: 260px;
+  left: 10px;
+}
+
+.sign-up img {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+
+.header-img-footer {
+  position: relative;
+  width: 100%;
+}
+
+.header-img-footer .big-planet {
+  position: absolute;
+  top: -146px;
+  left: 777px;
+  z-index: 2;
+}
+
+.header-img-footer img {
+  position: relative;
+  left: 0;
+  bottom: 700px;
+  z-index: 1;
+}
+
+.main {
+  position: relative;
+}
+
+.main .arrow1 {
+  position: absolute;
+  left: 190px;
+  top: 13px;
+}
+
+.main .arrow2 {
+  position: absolute;
+  left: 537px;
+  top: 50px;
+}
+
+.main .arrow3 {
+  position: absolute;
+  right: 150px;
+  top: 65px;
+}
+
+.main .arrow4 {
+  position: absolute;
+  right: 70px;
+  top: 35px;
+}
+
+.main .stars-320 {
+  position: absolute;
+  left: 78px;
+  top: -65px;
+  display: none;
+}
+
+.main .small-star {
+  position: absolute;
+  right: 0;
+}
+
+.main .commets {
+  position: absolute;
+  top: -115px;
+  left: 98px;
+}
+
+.main .main-star {
+  position: absolute;
+  top: 180px;
+  right: 40px;
+}
+
+.main .main-title {
+  width: 410px;
+  margin-left: 600px;
+}
+
+.main .main-title p {
+  position: relative;
+  z-index: 2;
+  font-size: 30px;
+  font-family: Cocon;
+  background-color: #5a116a;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 16px 72px;
+  border-radius: 50px;
+}
+
+.main .svg {
+  width: 60px;
+  height: 60px;
+  padding-top: 50px;
+}
+
+.main .svg path {
+  fill: white;
+}
+
+.main .main-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 88px;
+  position: relative;
+  z-index: 3;
+}
+
+.main .main-flex-item {
+  background-color: #401751;
+  border-radius: 50%;
+  text-align: center;
+  width: 265px;
+  height: 265px;
+  margin: 12px;
+}
+
+.main .main-flex-item p {
+  font-family: Exo2;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.main .main-flex-item p span {
+  color: #f5ca4e;
+}
+
+main {
+  position: relative;
+}
+
+main .splash {
+  overflow: hidden;
+  position: absolute;
+  top: 333px;
+  left: 0;
+}
+
+main .splash img {
+  width: 60%;
+}
+
+main .form-number2 {
+  margin-top: 85px;
+  position: relative;
+  z-index: 2;
+}
+
+main .form-number2 .austronaut {
+  position: absolute;
+  top: 373px;
+  left: 119px;
+}
+
+main .form-number2 .moon {
+  position: absolute;
+  top: 220px;
+  left: 0px;
+}
+
+main .form-number2 .text-here {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+main .form-number2 .arrow4-footer {
+  position: absolute;
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+  display: none;
+}
+
+main .form-number2 .stars-left-top {
+  position: absolute;
+  top: 160px;
+  left: 210px;
+}
+
+main .form-number2 .man-laptop {
+  position: absolute;
+  top: 185px;
+  right: 130px;
+}
+
+main .form-number2 .small-orange-planet {
+  position: absolute;
+  top: 160px;
+  right: 456px;
+  z-index: 1;
+}
+
+main .form-number2 .green-planet-footer {
+  position: absolute;
+  top: 520px;
+  left: 460px;
+}
+
+main .form-number2 .star-footer {
+  position: absolute;
+  top: 260px;
+  right: 450px;
+}
+
+main .form-number2 .cloud-right {
+  position: absolute;
+  top: 130px;
+  right: 40px;
+}
+
+main .form-number2 .cloud-left {
+  position: absolute;
+  bottom: -105px;
+  left: -125px;
+}
+
+main .form-number2 p {
+  color: white;
+  text-align: center;
+  font-family: Exo2;
+  font-size: 30px;
+}
+
+main .form-number2 span {
+  color: #f5ca4e;
+}
+
+main .form-wrapper {
+  background-color: #5f296d;
+  width: 375px;
+  text-align: center;
+  margin-left: 261px;
+  margin-top: 119px;
+  border-radius: 15px;
+}
+
+main .form-wrapper div {
+  padding: 13px 0;
+}
+
+main .form-wrapper button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdb81a), to(#ec592e));
+  background: -o-linear-gradient(#fdb81a, #ec592e);
+  background: linear-gradient(#fdb81a, #ec592e);
+  text-transform: uppercase;
+  padding: 16px 50px;
+  border-radius: 25px;
+  margin: 13px 0px 18px 0px;
+  font-family: Exo2;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+
+main .form-wrapper button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8ad0c), to(#a82700));
+  background: -o-linear-gradient(#f8ad0c, #a82700);
+  background: linear-gradient(#f8ad0c, #a82700);
+}
+
+main label {
+  font-family: Exo2;
+  font-weight: 500;
+  color: white;
+}
+
+main input {
+  height: 42px;
+  width: 292px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  z-index: 2;
+}
+
+footer {
+  position: relative;
+  margin-top: 320px;
+}
+
+footer .footer {
+  position: relative;
+  z-index: 3;
+}
+
+footer .footer .footer-title p {
+  position: relative;
+  z-index: 4;
+  font-family: Exo2;
+  font-size: 36px;
+  color: #f8cb50;
+  text-align: center;
+}
+
+footer .footer .footer-title p span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer .footer .saturn {
+  position: absolute;
+  top: -160px;
+  right: 0;
+}
+
+footer .footer .stars-left {
+  position: absolute;
+  left: 0;
+  top: -110px;
+}
+
+footer .footer .star1-footer {
+  position: absolute;
+  top: -22px;
+  left: 390px;
+}
+
+footer .footer-img {
+  position: absolute;
+  top: -390px;
+}
+
+footer .footer-img img {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .header-img-footer img {
+    margin-left: -300px;
+  }
+}
+
+@media (max-width: 1160px) {
+  footer .footer-img {
+    top: -200px;
+  }
+}
+
+@media (max-width: 1156px) {
+  .main .arrow1 {
+    display: none;
+  }
+
+  .main .arrow2 {
+    display: none;
+  }
+
+  .main .arrow3 {
+    display: none;
+  }
+
+  .main .arrow4 {
+    display: none;
+  }
+
+  .main .commets {
+    left: 13px;
+    top: -130px;
+    width: 277px;
+  }
+}
+
+@media (max-width: 1140px) {
+  main .form-number2 .man-laptop {
+    display: none;
+  }
+}
+
+@media (max-width: 1126px) {
+  .logo :nth-of-type(2) {
+    right: 0px;
+    top: 183px;
+    width: 162px;
+  }
+
+  .logo :nth-of-type(3) {
+    right: 85px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .main .main-title {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .main .main-title p {
+    font-size: 18px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 945px) {
+  .sign-up {
+    margin-left: -20px;
+    background-size: 100%;
+    opacity: 1;
+    width: 620px;
+  }
+}
+
+@media (max-width: 770px) {
+  footer .footer-img {
+    top: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .logo {
+    width: 440px;
+    height: 91px;
+  }
+
+  .logo :first-of-type {
+    width: 90px;
+    right: 20px;
+    top: 20px;
+  }
+
+  .logo-text {
+    margin-left: 90px;
+  }
+
+  .logo-text p {
+    font-size: 30px;
+  }
+
+  .title h1 {
+    font-size: 18px;
+  }
+
+  .title img {
+    opacity: .5;
+  }
+
+  .title p {
+    font-size: 20px;
+  }
+
+  .sign-up .red-planet {
+    top: 290px;
+    left: 279px;
+    z-index: 1;
+  }
+
+  .sign-up .orange-planet {
+    top: -22px;
+    width: 80px;
+    height: 80px;
+    left: 240px;
+  }
+
+  .sign-up .green-plant {
+    display: none;
+  }
+
+  .sign-up p {
+    font-size: 18px;
+    padding-left: 0;
+    margin-left: 60px;
+    padding-top: 38px;
+  }
+
+  .sign-up .form {
+    margin-left: 30px;
+    width: 300px;
+    opacity: 1;
+  }
+
+  .sign-up .form div {
+    padding-left: 0;
+  }
+
+  .sign-up .form div button {
+    width: 200px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+
+  .sign-up .form label {
+    margin: 0 10px;
+  }
+
+  .sign-up .form input {
+    width: 270px;
+    margin: 0 10px;
+  }
+
+  .sign-up .form .woman_couch {
+    display: none;
+  }
+
+  .sign-up img {
+    position: absolute;
+    top: -40px;
+    left: -5px;
+  }
+
+  .header-img-footer img {
+    margin-left: -700px;
+    position: relative;
+    bottom: 516px;
+  }
+
+  .main .stars-320 {
+    display: block;
+  }
+
+  .main .small-star {
+    left: 58px;
+    top: 664px;
+  }
+
+  main .splash {
+    display: none;
+  }
+
+  main .form-number2 .austronaut {
+    top: 547px;
+    left: 0px;
+  }
+
+  main .form-number2 .moon {
+    left: 230px;
+    top: 432px;
+  }
+
+  main .form-number2 .text-here {
+    top: 476px;
+    left: 00px;
+  }
+
+  main .form-number2 .arrow4-footer {
+    display: block;
+    left: 150px;
+    top: 468px;
+  }
+
+  main .form-number2 .stars-left-top {
+    top: -95px;
+    left: 190px;
+  }
+
+  main .form-number2 .small-orange-planet {
+    top: -620px;
+    left: 273px;
+  }
+
+  main .form-number2 .green-planet-footer {
+    display: none;
+  }
+
+  main .form-number2 .star-footer {
+    top: 240;
+    left: 0;
+  }
+
+  main .form-number2 .cloud-right {
+    width: 74px;
+    height: 31px;
+    top: -400px;
+    opacity: .3;
+  }
+
+  main .form-number2 .cloud-left {
+    display: none;
+  }
+
+  main .form-number2 p {
+    font-size: 24px;
+  }
+
+  main .form-wrapper {
+    margin-left: 0;
+    width: 320px;
+  }
+
+  main .form-wrapper button {
+    width: 200px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+  }
+
+  main label {
+    margin: 0 10px;
+  }
+
+  main input {
+    width: 270px;
+    margin: 0 10px;
+  }
+
+  footer .footer .saturn {
+    width: 126px;
+    height: 128px;
+  }
+
+  footer .footer .stars-left {
+    left: 222px;
+    top: -222px;
+  }
+}
+
+@media (max-width: 588px) {
+  main .form-number2 .austronaut {
+    left: 0px;
+    top: 570px;
+  }
+
+  main .form-number2 .moon {
+    left: 230px;
+    top: 453px;
+  }
+
+  main .form-number2 .text-here {
+    left: 00px;
+    top: 500px;
+  }
+
+  main .form-number2 .arrow4-footer {
+    display: block;
+    left: 150px;
+    top: 492px;
+  }
+}
+
+@media (max-width: 577px) {
+  main .form-number2 .austronaut {
+    left: 0px;
+    top: 590px;
+  }
+
+  main .form-number2 .moon {
+    left: 230px;
+    top: 473px;
+  }
+
+  main .form-number2 .text-here {
+    left: 0px;
+    top: 524px;
+  }
+
+  main .form-number2 .arrow4-footer {
+    display: block;
+    left: 150px;
+    top: 515px;
+  }
+
+  footer .footer .star1-footer {
+    left: 0;
+  }
+}
+
+@media (max-width: 570px) {
+  main .form-number2 .green-planet-footer {
+    display: block;
+    top: -1000px;
+    left: -62px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sign-up {
+    margin-left: -20px;
+    background-size: 100%;
+    width: 400px;
+  }
+
+  .header-img-footer .big-planet {
+    position: absolute;
+    left: 858px;
+    width: 100%;
+    top: 18px;
+  }
+
+  .header-img-footer img {
+    margin-left: -1000px;
+    position: relative;
+    bottom: 516px;
+    width: 1942px;
+  }
+}
+
+@media (max-width: 349px) {
+  main .form-number2 .austronaut {
+    left: 0px;
+    top: 620px;
+  }
+
+  main .form-number2 .moon {
+    left: 230px;
+    top: 505px;
+  }
+
+  main .form-number2 .text-here {
+    left: 0px;
+    top: 550px;
+  }
+
+  main .form-number2 .arrow4-footer {
+    display: block;
+    left: 150px;
+    top: 544px;
+  }
+}
+
+@media (max-width: 326px) {
+  main .form-number2 .austronaut {
+    left: 0px;
+    top: 650px;
+  }
+
+  main .form-number2 .moon {
+    left: 230px;
+    top: 535px;
+  }
+
+  main .form-number2 .text-here {
+    left: 0px;
+    top: 580px;
+  }
+
+  main .form-number2 .arrow4-footer {
+    display: block;
+    left: 150px;
+    top: 572px;
+  }
+}
